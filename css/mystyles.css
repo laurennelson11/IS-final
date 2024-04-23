@@ -1,0 +1,63 @@
+body{
+    font-family: fantasy;
+    color: rgb(163, 92, 229);
+    background-color: rgb(231, 177, 214);
+}
+
+
+.common{
+    font-family: fantasy;
+    position: absolute;
+}
+
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* CSS to resize the image */
+.imagecenter {
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(63, 37, 59);
+    width: 400px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+.videocenter {
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(63, 37, 59);
+    width: 560px; /* Set the desired width */
+    height: 315px; /* Maintain aspect ratio */
+}
+.tabcenter {
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(63, 37, 59);
+    
+}
+
+
+.imagecaption{
+    text-align: center;
+}
+
